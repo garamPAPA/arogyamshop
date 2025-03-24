@@ -1,0 +1,24 @@
+.icons-footer{
+    position: fixed;
+    bottom: 0px;
+    background-color:whitesmoke;
+    height: 60px;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.742);
+    font-size: 15px;
+}
+@media (max-width:1550px) {
+    .icons-footer{
+        display: flex;
+    }
+}
